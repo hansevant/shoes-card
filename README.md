@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# UI CARD WITH React Components and Vanila CSS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

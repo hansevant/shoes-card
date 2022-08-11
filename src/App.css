@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red */
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* utility css */
+.wishlist{
+  color: white !important;
+  background-color: orange !important;
 }
+/* utility css */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.parent__box{
+  width: 1000px;
+  margin: 50px auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: 'Roboto', sans-serif;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.back{
+  width: max-content;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.img__box{
+  height: 564px;
+}
+
+.info__box{
+  padding: 30px;
+}
+
+.info__box p {
+  margin-bottom: 8px;
+}
+
+.info__box ul {
+  margin-left: 20px;
+}
+
+.title__box{
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.cat__box{
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  opacity: .3;
+}
+
+.price__box{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.desc__box{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.stock__true{
+  font-weight: 500;
+  color: rgb(47, 172, 47);
+}
+
+.stock__false{
+  font-weight: 500;
+  color: rgb(214, 52, 52);
+}
+
+.button__box a {
+  text-decoration: none;
+  background-color: orange;
+  padding: 10px;
+  display: inline-block;
   color: white;
+  margin: 20px 10px 0 0 ;
+  border-radius: 4px;
+  border: 2px solid orange;
 }
 
-.App-link {
-  color: #61dafb;
+.button__box a:hover{
+  transition: .5s;
+  color: white;
+  background-color: rgb(221, 144, 1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#wishlist{
+  background-color: white;
+  color: orange;
+}
+
+@media only screen and (max-width: 768px) {
+  .parent__box{
+    flex-direction: column;
+    width: 564px;
+    margin-bottom: 100px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 425px) {
+  .parent__box{
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 100px;
+  }
+  .img__box{
+    height: 300px;
+  }
+  img{
+    height: 300px;
+  }
+  .title__box{
+    font-size: 24px;
+  }
+  .cat__box{
+    font-size: 20px;
+  }
+  .price__box, .stock__false, .stock__true{
+    font-size: 16px;
+  }
+  .desc__box{
+    font-size: 14px;
+  }
+  ul{
+    font-size: 14px;
+  }
+  .button__box a{
+    font-size: 13px;
   }
 }
