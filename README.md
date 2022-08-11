@@ -1,5 +1,7 @@
 # UI CARD WITH React Components and Vanila CSS
 
+clone the repo and install dependencies with `npm i` then run the server
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
