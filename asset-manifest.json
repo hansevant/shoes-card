@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shoes-card/static/css/main.38022c6e.css",
+    "main.js": "/shoes-card/static/js/main.76fa67dd.js",
+    "static/js/787.28cb0dcd.chunk.js": "/shoes-card/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/shoes-card/index.html",
+    "main.38022c6e.css.map": "/shoes-card/static/css/main.38022c6e.css.map",
+    "main.76fa67dd.js.map": "/shoes-card/static/js/main.76fa67dd.js.map",
+    "787.28cb0dcd.chunk.js.map": "/shoes-card/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38022c6e.css",
+    "static/js/main.76fa67dd.js"
+  ]
+}
